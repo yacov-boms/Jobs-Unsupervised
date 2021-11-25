@@ -7,7 +7,7 @@ In order to classify unlabeled textual job titles to  functions in an organizati
 2. Vectorization – using sklearn **TfIdf**, ngram_range=(1,2)  
 3. Clustering – with **Kmeans**, 7 centers.   
 
-As a representative title for each cluster, I took the most common word in the cluster. Of course they can be converted to parallel organizational function as needed.
+As a representative title for each cluster, I took the most common word in the cluster. Of course they can be converted to parallel organizational function as needed.   
 The graph projects 50 features on 2 dimensions(by PCA), so it is kind of twisted, but by comparing the representative titles to the titles in the input we can see that there is a pretty good match.   
 
 
